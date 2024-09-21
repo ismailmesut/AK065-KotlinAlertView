@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinalertview"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinalertview"
         minSdk = 24
